@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "gemini": {
+      "command": "node",
+      "args": ["mcp-servers/gemini-server/dist/index.js"],
+      "env": {
+        "GOOGLE_GEMINI_API_KEY": "AIzaSyBzr63m2cJscD3Feday2EE9X-U1Z1Eut8s"
+      }
+    },
+    "codex": {
+      "command": "node",
+      "args": ["mcp-servers/codex-server/dist/index.js"]
+    }
+  }
+}
